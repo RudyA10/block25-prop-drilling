@@ -1,5 +1,5 @@
 import ItemQuantity from "./itemQuantity";
-
+import "./cart.css";
 // This Component returns a list item element which displays the cart item image, name and the itemQuantity component/function
 
 export default function CartItem({ item, addCart, removeCart }) {

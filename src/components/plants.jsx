@@ -1,4 +1,5 @@
 import Plant from "./plant";
+import "./plants.css";
 // This component will iterate over an array called 'plants' and will return a Plant element for each item in the plants array which will display a header, and an unordered list for the plant component
 function Plants({ plants, addCart }) {
   return (

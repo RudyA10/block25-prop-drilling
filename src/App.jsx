@@ -1,11 +1,8 @@
 import { useState } from "react";
-
 import PLANTS from "./data";
-
 import Cart from "./components/cart";
 import Plants from "./components/plants";
 
-/** Users can add plants to a cart and remove them. */
 export default function App() {
   const [cart, setCart] = useState([]);
 
@@ -23,10 +20,6 @@ export default function App() {
     }
   };
 
-  /**
-   * First, use `map` to decrease the quantity of the item to remove by 1.
-   * Then, keep only the items that have a quantity greater than 0.
-   */
   const removeCart = (itemToRemove) => {
     setCart(
       cart

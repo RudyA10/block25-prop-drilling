@@ -1,4 +1,5 @@
 //Plant function which will use 'plant' and 'addCart' props when the function is called in another component
+import "./plants.css";
 export default function Plant({ plant, addCart }) {
   return (
     <div className="plant">
